@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@serialport/list": "^13.0.0",
+    "@serialport/parser-readline": "^13.0.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "serialport": "^13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev_smt": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch --minify",
+    "dev_cpr": "npx tailwindcss -i ./src-cpr/input.css -o ./src-cpr/output.css --watch --minify",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "concurrently": "^9.1.2",
+    "daisyui": "^4.12.23",
+    "tailwindcss": "^3.4.16"
+  }
+}
