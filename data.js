@@ -107,13 +107,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 const objective = document.getElementById("objective-button");
                 if (objective) {
                     objective.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b>\n* * * * * * * * * * * * * * *\n\nMy career objective is to develop the skills to create a powerful tool that will assist people for years to come.\n\n");
+                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b>\n* * * * * * * * * * * * * * *\n\nTo develop impactful software tools that empower and assist people for years to come.\n\n");
                     });
                 }
                 const techstack = document.getElementById("techstack-button");
                 if (techstack) {
                     techstack.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\n* * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<anim:term-bounce><color:cyan>Languages:</color> C++, Python, JavaScript, Lua, Assembly, HTML, CSS, SQL, PHP\n<anim:term-bounce><color:blueviolet>Web Development:</color> Node.js, mySQL, MongoDB, Tailwind CSS, WordPress, Express.js\n<anim:term-bounce><color:deeppink>Software & Tools:</color> Visual Studio, Git/Github, Docker, Unix, Adobe Suite (Photoshop, Premiere, After Effects)\n\n");
+                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\n* * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<anim:term-bounce><color:cyan>Languages:</color> C++, Python, JavaScript, Lua, Assembly, HTML, CSS, SQL, PHP\n<anim:term-bounce><color:blueviolet>Web Development:</color> Node.js, mySQL, MongoDB, Tailwind CSS, WordPress, Express.js\n<anim:term-bounce><color:deeppink>Software & Tools:</color> Visual Studio, Git/Github, Docker, Unix\n\n");
                     });
                 }
                 const cancel1 = document.getElementById("cancel-button");
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <div class="flex justify-center p-4">
                                     <div class="menu card grid grid-cols-2 gap-2 flex bg-gradient-to-b shadow-lg from-slate-950 to- bg-#000 p-4 w-full text-white rounded-md bg-opacity-50 shadow-primary/50">
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="email-button">E-Mail</div>
-                                        <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="github-button">Github</div>
+                                        <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="github-button">GitHub</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="linkedin-button">LinkedIn</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="discord-button">Discord</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" id="cancel-button" data-hoversound="sounds/cursor.mp3" data-clicksound="sounds/Negative.mp3" data-volume="0.5">Cancel</div>
@@ -146,6 +146,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (github) {
                         github.addEventListener("click", () => {
                             window.open("https://github.com/EtherAwaits", "_blank");
+                        });
+                    }
+                    const linkedin = document.getElementById("linkedin-button");
+                    if (linkedin) {
+                        linkedin.addEventListener("click", () => {
+                            window.open("https://www.linkedin.com/in/brettwilliams343", "_blank");
                         });
                     }
                     const discord = document.getElementById("discord-button");
