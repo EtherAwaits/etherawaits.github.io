@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const techstack = document.getElementById("techstack-button");
                 if (techstack) {
                     techstack.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\n* * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud\n<color:deeppink>Software & Tools:</color> Visual Studio, Git/GitHub, Docker, Unix\n\n");
+                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\n* * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Java, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud Platform\n<color:deeppink>Software & Tools:</color> Visual Studio, Android Studio, Git/GitHub, Docker, Unix\n\n");
                     });
                 }
                 const cancel1 = document.getElementById("cancel-button");
