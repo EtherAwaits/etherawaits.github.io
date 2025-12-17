@@ -141,6 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="github-button">Github</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="linkedin-button">LinkedIn</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="discord-button">Discord</div>
+                                        <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="wechat-button">WeChat微信</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" id="cancel-button" data-hoversound="sounds/cursor.mp3" data-clicksound="sounds/Negative.mp3" data-volume="0.5">Cancel</div>
                                     </div>
                                 </div>
@@ -167,6 +168,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (discord) {
                         discord.addEventListener("click", () => {
                             window.open("https://discordapp.com/users/etherawaits", "_blank");
+                        });
+                    }
+                    const wechat = document.getElementById("wechat-button");
+                    if (wechat) {
+                        wechat.addEventListener("click", () => {
+                            termtext("You can add me on WeChat微信 using my ID!\n <anim:term-green>WeChat微信:<color:lime>EtherAwaits</color>\n\n");
                         });
                     }
                     const cancel2 = document.getElementById("cancel-button");
