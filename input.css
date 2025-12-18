@@ -79,7 +79,7 @@ body {
 	outline-width: 4px;
 	color: white;
 	font-family: monospace;
-	font-size: 1rem;
+	font-size: .8rem;
 	width: 20%;	
 	transition: background-color 0.3s;
 	transition: outline-width 0.1s;

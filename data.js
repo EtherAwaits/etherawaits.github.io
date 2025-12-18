@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="ddsnet-button">DDS-NET</div>
                                 <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="hanzi-button">Hanzi Buddy汉字伙伴</div>
                                 <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="egeauto-button">Ege Autoparts</div>
+                                <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="visible-button">Visible Invincibles</div>
                                 <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="ddslink-button">(Planned) DDS-LINK</div>
-                                <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="genrpg-button">(Planned) GEN-RPG</div>
                                 <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" id="cancel-button" data-hoversound="sounds/cursor.mp3" data-clicksound="sounds/Negative.mp3" data-volume="0.5">Cancel</div>
                             </div>
                         </div>
@@ -52,33 +52,33 @@ document.addEventListener("DOMContentLoaded", () => {
             const ddsnet = document.getElementById("ddsnet-button");
             if (ddsnet) {
             ddsnet.addEventListener("click", () => {
-              termtext(`* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>DDS-NET</b>\n* * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Self Project, Winter Break 2024, Completed in <30 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Javascript, Nodejs, Expressjs, Tailwindcss, DaisyUI.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/DDS-NET, Github> | <link:https://digitaldicesystem.net, Live Demo>\n\nDDS-NET is a player management and dice roller system for the Shin Megami Tensei Tabletop Roleplaying Game, though in the future will feature other TTRPGs such as Cyberpunk Red. The design is inspired by the classic SNES games and made to simulate a terminal display. Designed to run on any screen and system, even a Raspberry Pi 5. Running locally, you can even use API to interact with a connected Arduino, <link: https://www.reddit.com/r/Megaten/comments/1hr6dyp/smt_ttrpg_arm_comp_making_your_own/, creating a cyberdeck like my own>.\n\n`);
+              termtext(`* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>DDS-NET</b>\t\t\t\t\t\t *\n* * * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Self Project, Winter Break 2024, Completed in <30 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Javascript, Nodejs, Expressjs, Tailwindcss, DaisyUI.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/DDS-NET, Github> | <link:https://digitaldicesystem.net, Live Demo>\n\nDDS-NET is a player management and dice roller system for the Shin Megami Tensei Tabletop Roleplaying Game, though in the future will feature other TTRPGs such as Cyberpunk Red. The design is inspired by the classic SNES games and made to simulate a terminal display. Designed to run on any screen and system, even a Raspberry Pi 5. Running locally, you can even use API to interact with a connected Arduino, <link: https://www.reddit.com/r/Megaten/comments/1hr6dyp/smt_ttrpg_arm_comp_making_your_own/, creating a cyberdeck like my own>.\n\n`);
               });
             }
 
             const hanzi = document.getElementById("hanzi-button");
             if (hanzi) {
             hanzi.addEventListener("click", () => {
-              termtext(`* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>Hanzi Buddy<color:red>汉字伙伴</color></b>\n* * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Self Project, Summer Break 2025, Completed in <50 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Typescript, Nextjs, React, Vercel, MongoDB, Mongoose, Clerk, Stripe, Tailwindcss, DaisyUI.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/Hanzi-Buddy, Github> | <link:https://hanzibuddy.com, Live Demo>\n\nHanzi Buddy is a web application designed to help users learn and practice Chinese characters (汉字) through conversation with an AI chatbot. The application provides a variety of tools and resources for learners, including definitions, pinyin, and word tracking. It is a learning platform combining several modern tools and libraries for a dynamicly tailored educational experience.\n\n`);
+              termtext(`* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>Hanzi Buddy<color:red>汉字伙伴</color></b>\t*\n* * * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Self Project, Summer Break 2025, Completed in <50 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Typescript, Nextjs, React, Vercel, MongoDB, Mongoose, Clerk, Stripe, Tailwindcss, DaisyUI.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/Hanzi-Buddy, Github> | <link:https://hanzibuddy.com, Live Demo>\n\nHanzi Buddy is a web application designed to help users learn and practice Chinese characters (汉字) through conversation with an AI chatbot. The application provides a variety of tools and resources for learners, including definitions, pinyin, and word tracking. It is a learning platform combining several modern tools and libraries for a dynamicly tailored educational experience.\n\n`);
               });
             }
 
             const ddslink = document.getElementById("ddslink-button");
             if (ddslink) {
                 ddslink.addEventListener("click", () => {
-                termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>DDS-LINK</b>\n* * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Planned, not started.\n<color:blueviolet>Tech Stack:</color> TBD\n<color:deeppink>Links:</color> N/A\n\nDDS-Link is a module for Foundry VTT that will allow communication between the Foundry client and DDS-NET. This will allow for transferring information between the two clients such as dice results, character details and more.\n\n");
+                termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>DDS-LINK</b>\t\t\t\t\t\t*\n* * * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Planned, not started.\n<color:blueviolet>Tech Stack:</color> TBD\n<color:deeppink>Links:</color> N/A\n\nDDS-Link is a module for Foundry VTT that will allow communication between the Foundry client and DDS-NET. This will allow for transferring information between the two clients such as dice results, character details and more.\n\n");
               });
             }
             const egeauto = document.getElementById("egeauto-button");
             if (egeauto) {
                 egeauto.addEventListener("click", () => {
-                termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>Ege Autoparts</b>\n* * * * * * * * * * * * * * *\n<color:cyan>Status:</color> University Group Project, Spring Semester 2025, Completed in <40 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Javascript, SQL, Nodejs, Expressjs, Tailwindcss, DaisyUI, mySQL.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/CSCI467-3A, Github>\n\nFinal 3 person group project for my CSCI-467 Software Engineering class which received a grade of 100%. Ege Auto Parts is a dynamic web application developed to manage the inventory and sales of a fictional auto parts company. The application uses Node.js and Express for server-side operations and database connectivity, while TailwindCSS and DaisyUI provide a modern and responsive front-end design.\n\n");
+                termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>Ege Autoparts</b>\t\t\t *\n* * * * * * * * * * * * * * * *\n<color:cyan>Status:</color> University Group Project, Spring Semester 2025, Completed in <40 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Javascript, Nodejs, Expressjs, Tailwindcss, DaisyUI, mySQL.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/CSCI467-3A, Github>\n\nFinal 3 person group project for my CSCI-467 Software Engineering class which received a grade of 100%. Ege Auto Parts is a dynamic web application developed to manage the inventory and sales of a fictional auto parts company. The application uses Node.js and Express for server-side operations and database connectivity, while TailwindCSS and DaisyUI provide a modern and responsive front-end design.\n\n");
               });
             }
-            const genrpg = document.getElementById("genrpg-button");
+            const genrpg = document.getElementById("visible-button");
             if (genrpg) {
                 genrpg.addEventListener("click", () => {
-                    termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>GEN-RPG</b>\n* * * * * * * * * * * * * * *\n<color:cyan>Status:</color> Planned, not started.\n<color:blueviolet>Tech Stack:</color> TBD\n<color:deeppink>Links:</color> N/A\n\nGEN-RPG is an experimental browser turn-based RPG where the player is tasked to battle against an enemy with decision making controlled by a generative AI Agent. Instead of being given traditional prompts, the agent will react according to the context of the players actions.\n\n");
+                    termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>Project</color> <b>Visible Invincibles</b> *\n* * * * * * * * * * * * * * * *\n<color:cyan>Status:</color> University Group Project, Fall Semester 2025, Completed in <10 days.\n<color:blueviolet>Tech Stack:</color> HTML, CSS, Javascript, SQL, Nodejs, Tailwindcss, DaisyUI.\n<color:deeppink>Links:</color> <link:https://github.com/EtherAwaits/UNIV301-6, Github> | <link:https://etherawaits.net/UNIV301-6, Live Demo>\n\nAs part of the Braven Career Accelerator, our cohort was tasked with solving a real world challenge for the political advocacy organization Young Invincibles. Serving as the team coordinator, I lead the development of a solution to increase alumni engagement through a gamified student and alumni portal called Visible Invincibles. \n\nOur team designed a front-end prototype to demonstrate how the platform could incentivize ongoing participation using points, badges, leaderboards, and public recognition. The prototype was created as a visual and functional concept to support our final presentation and illustrate the long-term engagement potential of the system.\n\nThe project received a final grade of 100%, and I was honored with the Braven “Live Your Legacy” Award, which is awarded once per semester to a fellow who demonstrates exceptional leadership, initiative, and impact beyond expectations.\n\n");
               });
             }
             const cancel6 = document.getElementById("cancel-button");
@@ -93,10 +93,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 bottomDisplay.innerHTML = `
                             <div class="flex justify-center p-4">
                                 <div class="menu card grid grid-cols-2 gap-2 flex bg-gradient-to-b shadow-lg from-slate-950 to- bg-#000 p-4 w-full text-white rounded-md bg-opacity-50 shadow-primary/50">
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="aboutme-button">About Me</div>
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="hobbies-button">Hobbies</div>
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="objective-button">Objective</div>
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="techstack-button">Tech Stack</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="aboutme-button">About Me关于我</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="hobbies-button">Hobbies职业目标</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="objective-button">Objective兴趣爱好</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="techstack-button">Tech Stack技术栈</div>
                                     <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" id="cancel-button" data-hoversound="sounds/cursor.mp3" data-clicksound="sounds/Negative.mp3" data-volume="0.5">Cancel</div>
                                 </div>
                             </div>
@@ -104,25 +104,25 @@ document.addEventListener("DOMContentLoaded", () => {
                 const aboutme = document.getElementById("aboutme-button");
                 if (aboutme) {
                     aboutme.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>About Me</b>\n* * * * * * * * * * * * * * *\n\nMy name is Brett Williams, I am currently a computer Science student at Northern Illinois University with a software development emphasis. I develop free online tools in my spare time for fun.\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>About Me</b>\t\t\t\t\t\t\t*\n* * * * * * * * * * * * * * * *\n\nMy name is Brett Williams, I am currently a computer Science student at Northern Illinois University with a software development emphasis. I develop free online tools in my spare time for fun. I enjoy learning new things by creating challenging projects of various interests.\n\nLately i've taken a heavy interest in exploring Chinese innovation in technology. After countless hours of work and studying, I have finally taken the steps to study abroad in Shanghai!\n\n");
                     });
                 }
                 const hobbies = document.getElementById("hobbies-button");
                 if (hobbies) {
                     hobbies.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Hobbies</b>\n* * * * * * * * * * * * * * *\n\nI have many hobbies and interests including Programming, Electronic tinkering, Tabletop games, Video games, Card games, Model Painting, Reading, Cooking.\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Hobbies</b>\t\t\t\t\t\t\t *\n* * * * * * * * * * * * * * * *\n\nI have many hobbies and interests including Programming, Electronic tinkering, Tabletop games, Video games, Card games, Model Painting, Reading, Cooking.\n\n");
                     });
                 }
                 const objective = document.getElementById("objective-button");
                 if (objective) {
                     objective.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b>\n* * * * * * * * * * * * * * *\n\nMy career objective is to develop the skills to create a powerful tool that will assist people for years to come.\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b>\t\t\t\t\t\t *\n* * * * * * * * * * * * * * * *\n\nMy career objective is to develop the skills to create powerful tools that will assist people for years to come.\n\n");
                     });
                 }
                 const techstack = document.getElementById("techstack-button");
                 if (techstack) {
                     techstack.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\n* * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Java, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud Platform\n<color:deeppink>Software & Tools:</color> Visual Studio, Android Studio, Git/GitHub, Docker, Unix\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\t\t\t\t\t\t*\n* * * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Java, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud Platform\n<color:deeppink>Software & Tools:</color> Visual Studio, Android Studio, Git/GitHub, Docker, Unix\n\n");
                     });
                 }
                 const cancel1 = document.getElementById("cancel-button");
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     bottomDisplay.innerHTML = `
                                 <div class="flex justify-center p-4">
                                     <div class="menu card grid grid-cols-2 gap-2 flex bg-gradient-to-b shadow-lg from-slate-950 to- bg-#000 p-4 w-full text-white rounded-md bg-opacity-50 shadow-primary/50">
-                                        <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="email-button">E-Mail</div>
+                                        <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="email-button">Email邮箱</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="github-button">Github</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="linkedin-button">LinkedIn</div>
                                         <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="discord-button">Discord</div>
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const wechat = document.getElementById("wechat-button");
                     if (wechat) {
                         wechat.addEventListener("click", () => {
-                            termtext("You can add me on WeChat微信 using my ID!\n <anim:term-green>WeChat微信:<color:lime>EtherAwaits</color>\n\n");
+                            termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>WeChat</color><color:red>微信</color> <b>EtherAwaits</b>\t\t\t *\n* * * * * * * * * * * * * * * *\n\nAdd my WeChat<color:red>微信</color> ID above!\n\n");
                         });
                     }
                     const cancel2 = document.getElementById("cancel-button");
