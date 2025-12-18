@@ -94,8 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="flex justify-center p-4">
                                 <div class="menu card grid grid-cols-2 gap-2 flex bg-gradient-to-b shadow-lg from-slate-950 to- bg-#000 p-4 w-full text-white rounded-md bg-opacity-50 shadow-primary/50">
                                     <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="aboutme-button">About Me关于我</div>
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="hobbies-button">Hobbies职业目标</div>
-                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="objective-button">Objective兴趣爱好</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="hobbies-button">Hobbies兴趣爱好</div>
+                                    <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="objective-button">Objective职业目标</div>
                                     <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" data-hoversound="sounds/cursor.mp3" data-volume="0.5" data-clicksound="sounds/Okay.mp3" id="techstack-button">Tech Stack技术栈</div>
                                     <div tabindex="0" class="menu-option hover-sfx click-sfx hover:shadow-md hover:shadow-accent/50" id="cancel-button" data-hoversound="sounds/cursor.mp3" data-clicksound="sounds/Negative.mp3" data-volume="0.5">Cancel</div>
                                 </div>
@@ -104,25 +104,25 @@ document.addEventListener("DOMContentLoaded", () => {
                 const aboutme = document.getElementById("aboutme-button");
                 if (aboutme) {
                     aboutme.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>About Me</b>\t\t\t\t\t\t\t*\n* * * * * * * * * * * * * * * *\n\nMy name is Brett Williams, I am currently a computer Science student at Northern Illinois University with a software development emphasis. I develop free online tools in my spare time for fun. I enjoy learning new things by creating challenging projects of various interests.\n\nLately i've taken a heavy interest in exploring Chinese innovation in technology. After countless hours of work and studying, I have finally taken the steps to study abroad in Shanghai!\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>About Me</b><color:red>关于我</color>\t\t\t\t *\n* * * * * * * * * * * * * * * *\n\nMy name is Brett Williams, I am currently a computer Science student at Northern Illinois University with a software development emphasis. I develop free online tools in my spare time for fun. I enjoy learning new things by creating challenging projects of various interests.\n\nLately i've taken a heavy interest in exploring Chinese innovation in technology. After countless hours of work and studying, I have finally taken the steps to study abroad in Shanghai!\n\n");
                     });
                 }
                 const hobbies = document.getElementById("hobbies-button");
                 if (hobbies) {
                     hobbies.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Hobbies</b>\t\t\t\t\t\t\t *\n* * * * * * * * * * * * * * * *\n\nI have many hobbies and interests including Programming, Electronic tinkering, Tabletop games, Video games, Card games, Model Painting, Reading, Cooking.\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Hobbies</b><color:red>兴趣爱好</color>\t\t\t\t*\n* * * * * * * * * * * * * * * *\n\nI have many hobbies and interests including Programming, Electronic tinkering, Tabletop games, Video games, Card games, Model Painting, Reading, Cooking.\n\n");
                     });
                 }
                 const objective = document.getElementById("objective-button");
                 if (objective) {
                     objective.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b>\t\t\t\t\t\t *\n* * * * * * * * * * * * * * * *\n\nMy career objective is to develop the skills to create powerful tools that will assist people for years to come.\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Objective</b><color:red>职业目标</color>\t\t\t*\n* * * * * * * * * * * * * * * *\n\nMy career objective is to develop the skills to create powerful tools that will assist people for years to come.\n\n");
                     });
                 }
                 const techstack = document.getElementById("techstack-button");
                 if (techstack) {
                     techstack.addEventListener("click", () => {
-                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b>\t\t\t\t\t\t*\n* * * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Java, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud Platform\n<color:deeppink>Software & Tools:</color> Visual Studio, Android Studio, Git/GitHub, Docker, Unix\n\n");
+                        termtext("* * * * * * * * * * * * * * * *\n* <anim:term-blue><color:yellow>About</color> <b>Tech Stack</b><color:red>技术栈</color>\t\t\t *\n* * * * * * * * * * * * * * * *\n\n<i>My Current Tech Stack Skills.</i>\n<color:cyan>Languages:</color> C++, Python, Typescript, JavaScript, Java, Lua, Assembly, HTML, CSS, SQL, PHP\n<color:blueviolet>Web Development:</color> React, Nextjs, Nodejs, Clerk, Stripe, mySQL, MongoDB, Tailwind CSS, Expressjs, Vercel, Google Cloud Platform\n<color:deeppink>Software & Tools:</color> Visual Studio, Android Studio, Git/GitHub, Docker, Unix\n\n");
                     });
                 }
                 const cancel1 = document.getElementById("cancel-button");
